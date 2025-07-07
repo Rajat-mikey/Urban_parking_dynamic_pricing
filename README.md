@@ -17,7 +17,19 @@ An intelligent, real-time pricing model for 14 parking lots using Python, Bokeh,
 - `final_report.pdf`: Report with assumptions, formulas, visuals
 - `data/dataset.csv`: Raw parking data
 
-## 🛠️ How to Run
-```bash
-pip install bokeh pandas numpy scikit-learn
-google collaboratory dynamic_pricing.ipynb
+## 🛠️ Tech Stack
+**pandas, Numpy**
+**python**
+**Google collaboratory**
+**pathway**
+**bokeh dashboards**
+
+## Architecture Diagram
+```mermaid
+graph TD
+    A[Raw Parking Data] --> B[Data Cleaning & Preprocessing]
+    B --> C[Feature Engineering]
+    C --> D[Model Training]
+    D --> F[Dynamic Pricing Output]
+
+
